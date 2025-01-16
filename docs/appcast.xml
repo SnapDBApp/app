@@ -4,5 +4,35 @@
 <link>https://github.com/SnapDBApp/app</link>
 <description>Most recent changes with links to updates.</description>
 <language>en</language>
+<item>
+<title>0.0.2</title>
+<link>https://github.com/SnapDBApp/app</link>
+<sparkle:version>0.0.2</sparkle:version>
+<description>
+<![CDATA[
+Check out the <a href="https://github.com/SnapDBApp/app/releases/tag/0.0.2">changelog on GitHub</a> for details about this release.
+]]>
+</description>
+<pubDate>2025-01-16T12:42:47Z</pubDate>
+<enclosure url="https://github.com/SnapDBApp/app/releases/download/0.0.2/SnapDB.zip"
+type="application/octet-stream"
+sparkle:edSignature="Uk67hzGdHvxxh/R6VPh7v9dgaQQL+EOqfRaeCAHcYz0v+wcNI/zqViO80v2+tq2ELVujOuppTDatqMmaUYu8Bw==" length="194"
+/>
+</item>
+<item>
+<title>Initial release - 0.0.1</title>
+<link>https://github.com/SnapDBApp/app</link>
+<sparkle:version>0.0.1</sparkle:version>
+<description>
+<![CDATA[
+Check out the <a href="https://github.com/SnapDBApp/app/releases/tag/0.0.1">changelog on GitHub</a> for details about this release.
+]]>
+</description>
+<pubDate>2025-01-16T10:52:18Z</pubDate>
+<enclosure url="https://github.com/SnapDBApp/app/releases/download/0.0.1/SnapDB.zip"
+type="application/octet-stream"
+sparkle:edSignature="Uk67hzGdHvxxh/R6VPh7v9dgaQQL+EOqfRaeCAHcYz0v+wcNI/zqViO80v2+tq2ELVujOuppTDatqMmaUYu8Bw==" length="194"
+/>
+</item>
 </channel>
 </rss>
