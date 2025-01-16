@@ -5,6 +5,21 @@
 <description>Most recent changes with links to updates.</description>
 <language>en</language>
 <item>
+<title>1.0.1</title>
+<link>https://github.com/SnapDBApp/app</link>
+<sparkle:version>1.0.1</sparkle:version>
+<description>
+<![CDATA[
+Check out the <a href="https://github.com/SnapDBApp/app/releases/tag/1.0.1">changelog on GitHub</a> for details about this release.
+]]>
+</description>
+<pubDate>2025-01-16T13:50:32Z</pubDate>
+<enclosure url="https://github.com/SnapDBApp/app/releases/download/1.0.1/SnapDB.zip"
+type="application/octet-stream"
+sparkle:edSignature="Uk67hzGdHvxxh/R6VPh7v9dgaQQL+EOqfRaeCAHcYz0v+wcNI/zqViO80v2+tq2ELVujOuppTDatqMmaUYu8Bw==" length="194"
+/>
+</item>
+<item>
 <title>1.0.0 - Initial Release</title>
 <link>https://github.com/SnapDBApp/app</link>
 <sparkle:version>1.0.0</sparkle:version>
