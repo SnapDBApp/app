@@ -19,8 +19,8 @@ jobs:
 
       - name: Run appcast generation script
         run: |
-          chmod +x generate_appcast.sh
-          ./generate_appcast.sh
+          chmod +x generate.sh
+          ./generate.sh
 
       - name: Commit and push appcast.xml
         env:
