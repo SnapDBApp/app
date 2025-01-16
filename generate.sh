@@ -54,6 +54,7 @@ echo "$RELEASES" | jq -c '.[]' | while read -r release; do
     SIGNATURE=$(echo "$SECRET_KEY" | $SIGN_UPDATE_BINARY --ed-key-file - "$ASSET_FILE")
     if [[ $? -ne 0 ]]; then
       echo "Error: Failed to generate signature for $ASSET_FILE"
+      echo $SIGNATURE
       exit 1
     fi
 
