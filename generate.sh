@@ -12,7 +12,7 @@ SECRET_KEY="$PRIVATE_KEY_SECRET"
 mkdir -p "$TMP_FOLDER"
 
 # Fetch repository releases
-RELEASES=$(curl -s "${GITHUB_API}/repos/${REPO}/releases")
+RELEASES=$(curl -s "${GITHUB_API}/repos/${REPO}/releases" --header "Authorization: Bearer ${GITHUB_TOKEN}" --header "X-GitHub-Api-Version: 2022-11-28")
 echo $RELEASES
 
 # Exit if no releases are found
