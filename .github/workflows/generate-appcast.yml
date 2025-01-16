@@ -30,4 +30,4 @@ jobs:
           git config user.email github-actions@github.com
           git add docs/appcast.xml
           git commit -m "Update appcast.xml for release ${{ github.event.release.tag_name }}"
-          git push
+          git push origin HEAD:main
