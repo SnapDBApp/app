@@ -20,6 +20,10 @@ if [[ -z "$RELEASES" || "$RELEASES" == "[]" ]]; then
   exit 1
 fi
 
+# Regenerate the appcast.xml file
+rm -f "$OUTPUT_APPCAST_FILE"
+touch $OUTPUT_APPCAST_FILE
+
 # Start writing appcast.xml
 cat <<EOF > "$OUTPUT_APPCAST_FILE"
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
