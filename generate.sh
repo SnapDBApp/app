@@ -13,6 +13,7 @@ mkdir -p "$TMP_FOLDER"
 
 # Fetch repository releases
 RELEASES=$(curl -s "${GITHUB_API}/repos/${REPO}/releases")
+echo $RELEASES
 
 # Exit if no releases are found
 if [[ -z "$RELEASES" || "$RELEASES" == "[]" ]]; then
