@@ -12,14 +12,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up signing key
-        env:
-          PRIVATE_KEY_SECRET: ${{ secrets.PRIVATE_KEY_SECRET }}
-        run: echo "$PRIVATE_KEY_SECRET" > private_key.pem
-
       - name: Run appcast generation script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PRIVATE_KEY_SECRET: ${{ secrets.PRIVATE_KEY_SECRET }}
         run: |
           chmod +x generate.sh
           ./generate.sh
