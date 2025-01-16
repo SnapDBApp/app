@@ -18,6 +18,8 @@ jobs:
         run: echo "$PRIVATE_KEY_SECRET" > private_key.pem
 
       - name: Run appcast generation script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x generate.sh
           ./generate.sh
