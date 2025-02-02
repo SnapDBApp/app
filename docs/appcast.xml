@@ -5,6 +5,21 @@
 <description>Most recent changes with links to updates.</description>
 <language>en</language>
 <item>
+<title>1.1.1 - Elasticsearch support</title>
+<link>https://github.com/SnapDBApp/app</link>
+<sparkle:version>1.1.1</sparkle:version>
+<description>
+<![CDATA[
+Check out the <a href="https://github.com/SnapDBApp/app/releases/tag/1.1.1">changelog on GitHub</a> for details about this release.
+]]>
+</description>
+<pubDate>2025-02-02T18:53:16Z</pubDate>
+<enclosure url="https://github.com/SnapDBApp/app/releases/download/1.1.1/SnapDB.zip"
+type="application/octet-stream"
+sparkle:edSignature="CsXTgbmkLxV2nVLB0CA3xdikGWLtKRlfPekyNanGjJVoyTJRZDlWKvNt/hbh5l2DdeEVFSR8J+CAwHeNZEXcAg==" length="4291208"
+/>
+</item>
+<item>
 <title>1.1.0</title>
 <link>https://github.com/SnapDBApp/app</link>
 <sparkle:version>1.1.0</sparkle:version>
